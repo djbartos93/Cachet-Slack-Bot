@@ -1,0 +1,42 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    addressable (2.5.1)
+      public_suffix (~> 2.0, >= 2.0.2)
+    cachet_api (1.0.2)
+      rest-client (~> 1.8)
+    domain_name (0.5.20170404)
+      unf (>= 0.0.5, < 1.0.0)
+    http (2.2.1)
+      addressable (~> 2.3)
+      http-cookie (~> 1.0)
+      http-form_data (~> 1.0.1)
+      http_parser.rb (~> 0.6.0)
+    http-cookie (1.0.3)
+      domain_name (~> 0.5)
+    http-form_data (1.0.1)
+    http_parser.rb (0.6.0)
+    json-compare (0.1.8)
+    mime-types (2.6.1)
+    netrc (0.11.0)
+    public_suffix (2.0.5)
+    rest-client (1.8.0)
+      http-cookie (>= 1.0.2, < 2.0)
+      mime-types (>= 1.16, < 3.0)
+      netrc (~> 0.7)
+    unf (0.1.4)
+      unf_ext
+    unf_ext (0.0.7.2)
+    yajl (0.3.4)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  cachet_api
+  http
+  json-compare
+  yajl
+
+BUNDLED WITH
+   1.10.3
